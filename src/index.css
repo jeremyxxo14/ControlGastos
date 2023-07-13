@@ -148,8 +148,8 @@ header h1 {
     border-left: 5px solid #b91c1c;
     color: #b91c1c;
 }
-.alerta.success {
-}
+
+
 
 .contenedor {
     width: 90%;
@@ -158,7 +158,6 @@ header h1 {
 }
 .contenedor-presupuesto {
     margin-top: -5rem;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -406,4 +405,60 @@ body .modal {
     align-items: center;
     font-size: 2.4rem;
     text-align: right;
+}
+
+@media (max-width: 500px) {
+    
+    
+    .contenedor {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    h1{
+
+        padding: 2rem !important
+
+    }
+
+    .filtros .campo{
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        flex-direction: column;
+    }
+
+    .formulario{
+        padding: 5rem 0;
+    }
+
+    .formulario input{
+        width: 100% ;
+        
+    }
+
+    .nuevo-gasto img{
+        
+        margin: 80%;
+    }
+
+    .modal .formulario{
+        width: 30rem;
+    }
+
+    .descripcion-gasto .categoria{
+        font-size: 3rem;
+    }
+
+    .descripcion-gasto .fecha-gasto span{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .gasto{
+        flex-direction: column;
+    }
+
+
+
 }
